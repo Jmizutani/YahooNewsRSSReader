@@ -3,27 +3,49 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		469F83E2A031E807EEA17B98 /* Pods_YahooNewsRSSReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 208218721A26D2FB7D2CD445 /* Pods_YahooNewsRSSReader.framework */; };
 		B37609DB24A2E86A00C525E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37609DA24A2E86A00C525E2 /* AppDelegate.swift */; };
 		B37609DD24A2E86A00C525E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37609DC24A2E86A00C525E2 /* SceneDelegate.swift */; };
-		B37609DF24A2E86A00C525E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37609DE24A2E86A00C525E2 /* ViewController.swift */; };
 		B37609E224A2E86A00C525E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B37609E024A2E86A00C525E2 /* Main.storyboard */; };
 		B37609E424A2E86D00C525E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B37609E324A2E86D00C525E2 /* Assets.xcassets */; };
 		B37609E724A2E86D00C525E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B37609E524A2E86D00C525E2 /* LaunchScreen.storyboard */; };
+		B37609F324A2EE8B00C525E2 /* ArticleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37609F224A2EE8B00C525E2 /* ArticleList.swift */; };
+		B37609F524A2F15B00C525E2 /* RssClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37609F424A2F15B00C525E2 /* RssClient.swift */; };
+		B37609F824A2F7E200C525E2 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37609F624A2F7E200C525E2 /* NewsViewController.swift */; };
+		B37609FB24A2FA8200C525E2 /* NewsType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37609FA24A2FA8200C525E2 /* NewsType.swift */; };
+		B37609FD24A3051E00C525E2 /* DetailWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37609FC24A3051E00C525E2 /* DetailWebViewController.swift */; };
+		B37609FF24A3056B00C525E2 /* PageMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37609FE24A3056B00C525E2 /* PageMenuViewController.swift */; };
+		B3760A0224A3063100C525E2 /* ArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3760A0024A3063100C525E2 /* ArticleCell.swift */; };
+		B3760A0324A3063100C525E2 /* ArticleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3760A0124A3063100C525E2 /* ArticleCell.xib */; };
+		B3760A0624A3065E00C525E2 /* TopArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3760A0424A3065D00C525E2 /* TopArticleCell.swift */; };
+		B3760A0724A3065E00C525E2 /* TopArticleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3760A0524A3065E00C525E2 /* TopArticleCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		208218721A26D2FB7D2CD445 /* Pods_YahooNewsRSSReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YahooNewsRSSReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		495FBBF92DD9A598F43C5F83 /* Pods-YahooNewsRSSReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YahooNewsRSSReader.debug.xcconfig"; path = "Target Support Files/Pods-YahooNewsRSSReader/Pods-YahooNewsRSSReader.debug.xcconfig"; sourceTree = "<group>"; };
 		B37609D724A2E86A00C525E2 /* YahooNewsRSSReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YahooNewsRSSReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B37609DA24A2E86A00C525E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B37609DC24A2E86A00C525E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B37609DE24A2E86A00C525E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B37609E124A2E86A00C525E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B37609E324A2E86D00C525E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B37609E624A2E86D00C525E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B37609E824A2E86D00C525E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B37609F224A2EE8B00C525E2 /* ArticleList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleList.swift; sourceTree = "<group>"; };
+		B37609F424A2F15B00C525E2 /* RssClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RssClient.swift; sourceTree = "<group>"; };
+		B37609F624A2F7E200C525E2 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		B37609FA24A2FA8200C525E2 /* NewsType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsType.swift; sourceTree = "<group>"; };
+		B37609FC24A3051E00C525E2 /* DetailWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailWebViewController.swift; sourceTree = "<group>"; };
+		B37609FE24A3056B00C525E2 /* PageMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageMenuViewController.swift; sourceTree = "<group>"; };
+		B3760A0024A3063100C525E2 /* ArticleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleCell.swift; sourceTree = "<group>"; };
+		B3760A0124A3063100C525E2 /* ArticleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArticleCell.xib; sourceTree = "<group>"; };
+		B3760A0424A3065D00C525E2 /* TopArticleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopArticleCell.swift; sourceTree = "<group>"; };
+		B3760A0524A3065E00C525E2 /* TopArticleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopArticleCell.xib; sourceTree = "<group>"; };
+		EAEC9148E6880B2B26B08204 /* Pods-YahooNewsRSSReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YahooNewsRSSReader.release.xcconfig"; path = "Target Support Files/Pods-YahooNewsRSSReader/Pods-YahooNewsRSSReader.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +53,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				469F83E2A031E807EEA17B98 /* Pods_YahooNewsRSSReader.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		580F6A45C6896607711837B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				208218721A26D2FB7D2CD445 /* Pods_YahooNewsRSSReader.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B1FA69C4A8CA2AA70012F86 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				495FBBF92DD9A598F43C5F83 /* Pods-YahooNewsRSSReader.debug.xcconfig */,
+				EAEC9148E6880B2B26B08204 /* Pods-YahooNewsRSSReader.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B37609CE24A2E86A00C525E2 = {
 			isa = PBXGroup;
 			children = (
 				B37609D924A2E86A00C525E2 /* YahooNewsRSSReader */,
 				B37609D824A2E86A00C525E2 /* Products */,
+				5B1FA69C4A8CA2AA70012F86 /* Pods */,
+				580F6A45C6896607711837B6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +98,56 @@
 		B37609D924A2E86A00C525E2 /* YahooNewsRSSReader */ = {
 			isa = PBXGroup;
 			children = (
+				B37609F124A2ED4200C525E2 /* Base */,
+				B37609F024A2ED3C00C525E2 /* View */,
+				B37609EF24A2ED3500C525E2 /* Model */,
+				B37609EE24A2ED2700C525E2 /* Controller */,
 				B37609DA24A2E86A00C525E2 /* AppDelegate.swift */,
 				B37609DC24A2E86A00C525E2 /* SceneDelegate.swift */,
-				B37609DE24A2E86A00C525E2 /* ViewController.swift */,
-				B37609E024A2E86A00C525E2 /* Main.storyboard */,
 				B37609E324A2E86D00C525E2 /* Assets.xcassets */,
-				B37609E524A2E86D00C525E2 /* LaunchScreen.storyboard */,
 				B37609E824A2E86D00C525E2 /* Info.plist */,
 			);
 			path = YahooNewsRSSReader;
+			sourceTree = "<group>";
+		};
+		B37609EE24A2ED2700C525E2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B37609F624A2F7E200C525E2 /* NewsViewController.swift */,
+				B37609FC24A3051E00C525E2 /* DetailWebViewController.swift */,
+				B37609FE24A3056B00C525E2 /* PageMenuViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B37609EF24A2ED3500C525E2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B37609F224A2EE8B00C525E2 /* ArticleList.swift */,
+				B37609F424A2F15B00C525E2 /* RssClient.swift */,
+				B37609FA24A2FA8200C525E2 /* NewsType.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B37609F024A2ED3C00C525E2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B3760A0024A3063100C525E2 /* ArticleCell.swift */,
+				B3760A0124A3063100C525E2 /* ArticleCell.xib */,
+				B3760A0424A3065D00C525E2 /* TopArticleCell.swift */,
+				B3760A0524A3065E00C525E2 /* TopArticleCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B37609F124A2ED4200C525E2 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B37609E024A2E86A00C525E2 /* Main.storyboard */,
+				B37609E524A2E86D00C525E2 /* LaunchScreen.storyboard */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +157,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B37609EB24A2E86D00C525E2 /* Build configuration list for PBXNativeTarget "YahooNewsRSSReader" */;
 			buildPhases = (
+				5321FE5C10D1A0C3932266ED /* [CP] Check Pods Manifest.lock */,
 				B37609D324A2E86A00C525E2 /* Sources */,
 				B37609D424A2E86A00C525E2 /* Frameworks */,
 				B37609D524A2E86A00C525E2 /* Resources */,
+				2E5E58D375956887C0C3EEFF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,7 +210,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3760A0324A3063100C525E2 /* ArticleCell.xib in Resources */,
 				B37609E724A2E86D00C525E2 /* LaunchScreen.storyboard in Resources */,
+				B3760A0724A3065E00C525E2 /* TopArticleCell.xib in Resources */,
 				B37609E424A2E86D00C525E2 /* Assets.xcassets in Resources */,
 				B37609E224A2E86A00C525E2 /* Main.storyboard in Resources */,
 			);
@@ -133,13 +220,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2E5E58D375956887C0C3EEFF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YahooNewsRSSReader/Pods-YahooNewsRSSReader-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YahooNewsRSSReader/Pods-YahooNewsRSSReader-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YahooNewsRSSReader/Pods-YahooNewsRSSReader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5321FE5C10D1A0C3932266ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YahooNewsRSSReader-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B37609D324A2E86A00C525E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B37609DF24A2E86A00C525E2 /* ViewController.swift in Sources */,
+				B37609FF24A3056B00C525E2 /* PageMenuViewController.swift in Sources */,
+				B37609FD24A3051E00C525E2 /* DetailWebViewController.swift in Sources */,
+				B37609F524A2F15B00C525E2 /* RssClient.swift in Sources */,
+				B37609F324A2EE8B00C525E2 /* ArticleList.swift in Sources */,
+				B3760A0624A3065E00C525E2 /* TopArticleCell.swift in Sources */,
 				B37609DB24A2E86A00C525E2 /* AppDelegate.swift in Sources */,
+				B3760A0224A3063100C525E2 /* ArticleCell.swift in Sources */,
+				B37609F824A2F7E200C525E2 /* NewsViewController.swift in Sources */,
+				B37609FB24A2FA8200C525E2 /* NewsType.swift in Sources */,
 				B37609DD24A2E86A00C525E2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +418,7 @@
 		};
 		B37609EC24A2E86D00C525E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 495FBBF92DD9A598F43C5F83 /* Pods-YahooNewsRSSReader.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +437,7 @@
 		};
 		B37609ED24A2E86D00C525E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAEC9148E6880B2B26B08204 /* Pods-YahooNewsRSSReader.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

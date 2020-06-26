@@ -1,0 +1,26 @@
+PODS:
+  - HTMLReader (2.1.5)
+  - SDWebImage (5.8.1):
+    - SDWebImage/Core (= 5.8.1)
+  - SDWebImage/Core (5.8.1)
+  - XLPagerTabStrip (8.1.0)
+
+DEPENDENCIES:
+  - HTMLReader
+  - SDWebImage
+  - XLPagerTabStrip
+
+SPEC REPOS:
+  trunk:
+    - HTMLReader
+    - SDWebImage
+    - XLPagerTabStrip
+
+SPEC CHECKSUMS:
+  HTMLReader: 8056b3418baad09718902a1b39361c63b14a894f
+  SDWebImage: e3eae2eda88578db0685a0c88597fdadd9433f05
+  XLPagerTabStrip: 22d4c58200d7c105e0e407ab6bfd01a5d85014be
+
+PODFILE CHECKSUM: 2bcf6de90a54493ddf16e1f949c4d3b3c95f5e78
+
+COCOAPODS: 1.9.3
